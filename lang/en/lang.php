@@ -3,7 +3,7 @@
 return [
     'plugin' => [
         'name' => 'Seo',
-        'description' => ''
+        'description' => 'Seo plugin for WinterCMS'
     ],
     'components' => [
         'seo' => [
