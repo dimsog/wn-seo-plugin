@@ -4,8 +4,8 @@ declare(strict_types=1);
 
 namespace Dimsog\Seo\Models;
 
-use Model;
 use System\Behaviors\SettingsModel;
+use Winter\Storm\Database\Model;
 
 class Settings extends Model
 {
