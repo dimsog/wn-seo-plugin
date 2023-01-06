@@ -20,6 +20,7 @@ composer require dimsog/wn-seo-plugin
 ```
 
 ### How to use
+layouts/default.htm
 ```html
 [seo]
 ==
