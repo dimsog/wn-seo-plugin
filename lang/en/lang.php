@@ -12,8 +12,8 @@ return [
     ],
     'settings' => [
         'name' => 'Seo',
-        'header_and_footer' => 'Header and Footer',
-        'header' => 'Header code',
+        'header_and_footer' => 'Head and Footer',
+        'header' => 'Head code',
         'footer' => 'Footer code'
     ]
 ];
