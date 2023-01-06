@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace Dimsog\Seo;
 
 use Backend;
+use Dimsog\Seo\Components\Seo;
 use Dimsog\Seo\Models\Settings;
 use System\Classes\PluginBase;
 
@@ -17,6 +18,13 @@ class Plugin extends PluginBase
             'description' => 'dimsog.seo::lang.plugin.description',
             'author'      => 'Dimsog',
             'icon'        => 'icon-search'
+        ];
+    }
+
+    public function registerComponents(): array
+    {
+        return [
+            Seo::class => 'seo'
         ];
     }
 

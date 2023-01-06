@@ -6,7 +6,9 @@ return [
         'description' => ''
     ],
     'components' => [
-
+        'seo' => [
+            'name' => 'Seo'
+        ]
     ],
     'settings' => [
         'name' => 'Seo',
