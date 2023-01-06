@@ -1,0 +1,21 @@
+{
+    "name": "dimsog/wn-seo-plugin",
+    "type": "winter-plugin",
+    "version": "1.0.0",
+    "description": "Seo plugin for WinterCMS",
+    "keywords": ["seo", "winter", "winter seo", "wintercms seo plugin"],
+    "license": "MIT",
+    "support": {
+        "issues": "https://github.com/dimsog/wn-seo-plugin/issues",
+        "source": "https://github.com/dimsog/wn-seo-plugin"
+    },
+    "authors": [
+        {
+            "name": "Dmitry R",
+            "email": "dimsog@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=8.0"
+    }
+}
