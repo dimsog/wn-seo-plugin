@@ -1,0 +1,12 @@
+tabs:
+    fields:
+        header:
+            tab: dimsog.seo::lang.settings.header_and_footer
+            label: dimsog.seo::lang.settings.header
+            type: textarea
+            size: giant
+        footer:
+            tab: dimsog.seo::lang.settings.header_and_footer
+            label: dimsog.seo::lang.settings.footer
+            type: textarea
+            size: giant
