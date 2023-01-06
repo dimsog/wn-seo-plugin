@@ -9,6 +9,9 @@ return [
 
     ],
     'settings' => [
-        'name' => 'Seo'
+        'name' => 'Seo',
+        'header_and_footer' => 'Header и Footer',
+        'header' => 'Код в header',
+        'footer' => 'Код в footer'
     ]
 ];

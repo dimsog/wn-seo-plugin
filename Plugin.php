@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace Dimsog\Seo;
 
 use Backend;
+use Dimsog\Seo\Models\Settings;
 use System\Classes\PluginBase;
 
 class Plugin extends PluginBase

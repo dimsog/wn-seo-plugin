@@ -9,6 +9,9 @@ return [
 
     ],
     'settings' => [
-        'name' => 'Seo'
+        'name' => 'Seo',
+        'header_and_footer' => 'Header and Footer',
+        'header' => 'Header code',
+        'footer' => 'Footer code'
     ]
 ];
