@@ -3,6 +3,7 @@
 ### Features
 * Adding code to the header
 * Adding code to the footer
+* Robots.txt
 
 ### Language support
 * English
