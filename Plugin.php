@@ -21,6 +21,26 @@ class Plugin extends PluginBase
         ];
     }
 
+    public function registerNavigation(): array
+    {
+        return [
+            'seo' => [
+                'label'       => 'dimsog.seo::lang.models.redirect.label',
+                'url'         => Backend::url('dimsog/seo/redirects'),
+                'icon'        => 'icon-search',
+                'permissions' => ['*'],
+                'order'       => 500,
+                'sideMenu' => [
+                    'seo' => [
+                        'label'       => 'dimsog.seo::lang.models.redirect.label',
+                        'icon'        => 'icon-search',
+                        'url'         => Backend::url('dimsog/seo/redirects'),
+                    ]
+                ]
+            ]
+        ];
+    }
+
     public function registerComponents(): array
     {
         return [
