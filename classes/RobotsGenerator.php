@@ -22,8 +22,7 @@ class RobotsGenerator
         if (empty($robots)) {
             $robots = $this->getDefaultRobots();
         }
-        $robots = str_replace('$domain', config('app.url'), $robots);
-        return $robots;
+        return str_replace('$domain', config('app.url'), $robots);
     }
 
     private function getDefaultRobots(): string
