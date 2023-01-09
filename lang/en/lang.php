@@ -14,6 +14,7 @@ return [
         'name' => 'Seo',
         'header_and_footer' => 'Head and Footer',
         'header' => 'Head code',
-        'footer' => 'Footer code'
+        'footer' => 'Footer code',
+        'robots' => 'Robots.txt'
     ]
 ];

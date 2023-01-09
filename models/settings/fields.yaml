@@ -10,3 +10,9 @@ tabs:
             label: dimsog.seo::lang.settings.footer
             type: textarea
             size: giant
+        robots:
+            tab: dimsog.seo::lang.settings.robots
+            label: dimsog.seo::lang.settings.robots
+            type: textarea
+            size: giant
+            default: "User-agent: *\nAllow: /\nHost: $domain\nSitemap: $domain/sitemap.xml"
