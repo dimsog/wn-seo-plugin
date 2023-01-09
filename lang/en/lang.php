@@ -23,5 +23,9 @@ return [
             'created_at' => 'Created At',
             'updated_at' => 'Updated At',
         ],
+        'redirect' => [
+            'label' => 'Redirect',
+            'label_plural' => 'Redirects',
+        ],
     ],
 ];

@@ -1,0 +1,31 @@
+# ===================================
+#  Form Behavior Config
+# ===================================
+
+# Record name
+name: 'dimsog.seo::lang.models.redirect.label'
+
+# Model Form Field configuration
+form: $/dimsog/seo/models/redirect/fields.yaml
+
+# Model Class name
+modelClass: Dimsog\Seo\Models\Redirect
+
+# Default redirect location
+defaultRedirect: dimsog/seo/redirects
+
+# Create page
+create:
+    title: backend::lang.form.create_title
+    redirect: dimsog/seo/redirects/update/:id
+    redirectClose: dimsog/seo/redirects
+
+# Update page
+update:
+    title: backend::lang.form.update_title
+    redirect: dimsog/seo/redirects
+    redirectClose: dimsog/seo/redirects
+
+# Preview page
+preview:
+    title: backend::lang.form.preview_title
