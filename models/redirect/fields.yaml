@@ -3,6 +3,18 @@
 # ===================================
 
 fields:
-    id:
-        label: 'dimsog.seo::lang.models.general.id'
-        disabled: true
+    code:
+        label: 'dimsog.seo::lang.models.redirect.code'
+        type: dropdown
+        required: 1
+        default: 301
+        options:
+            301: 301 - Permanent
+            302: 302 - Temporary
+            303: 303 - See Other
+    from:
+        label: 'dimsog.seo::lang.models.redirect.from'
+        required: true
+    to:
+        label: 'dimsog.seo::lang.models.redirect.to'
+        required: true

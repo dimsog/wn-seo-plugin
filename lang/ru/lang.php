@@ -15,5 +15,19 @@ return [
         'header_and_footer' => 'Head и Footer',
         'header' => 'Код в head',
         'footer' => 'Код в footer'
+    ],
+    'models' => [
+        'general' => [
+            'id' => 'ID',
+            'created_at' => 'Created At',
+            'updated_at' => 'Updated At',
+        ],
+        'redirect' => [
+            'label' => 'Redirect',
+            'label_plural' => 'Redirects',
+            'code' => 'Код',
+            'from' => 'Откуда',
+            'to' => 'Куда'
+        ],
     ]
 ];

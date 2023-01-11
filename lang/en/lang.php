@@ -26,6 +26,9 @@ return [
         'redirect' => [
             'label' => 'Redirect',
             'label_plural' => 'Redirects',
+            'code' => 'Code',
+            'from' => 'From',
+            'to' => 'To'
         ],
     ],
 ];

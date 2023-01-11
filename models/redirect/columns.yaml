@@ -6,14 +6,16 @@ columns:
     id:
         label: 'dimsog.seo::lang.models.general.id'
         searchable: true
+        width: '100px'
     created_at:
         label: 'dimsog.seo::lang.models.general.created_at'
         type: datetime
         searchable: true
         sortable: true
-        invisible: true
-    updated_at:
-        label: 'dimsog.seo::lang.models.general.updated_at'
-        type: datetime
-        searchable: true
-        sortable: true
+        width: '200px'
+    code:
+        label: 'dimsog.seo::lang.models.redirect.code'
+    from:
+        label: 'dimsog.seo::lang.models.redirect.from'
+    to:
+        label: 'dimsog.seo::lang.models.redirect.to'
