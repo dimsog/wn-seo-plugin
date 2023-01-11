@@ -5,12 +5,19 @@ declare(strict_types=1);
 namespace Dimsog\Seo;
 
 use Backend;
+use Dimsog\Seo\Classes\Middleware\RedirectMiddleware;
 use Dimsog\Seo\Components\Seo;
 use Dimsog\Seo\Models\Settings;
+use Illuminate\Contracts\Http\Kernel;
 use System\Classes\PluginBase;
 
 class Plugin extends PluginBase
 {
+    public function boot()
+    {
+        $this->app[Kernel::class]->prependMiddleware(RedirectMiddleware::class);
+    }
+
     public function pluginDetails(): array
     {
         return [
