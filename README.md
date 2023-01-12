@@ -4,6 +4,7 @@
 * Adding code to the header
 * Adding code to the footer
 * Robots.txt
+* Redirects
 
 ### Language support
 * English

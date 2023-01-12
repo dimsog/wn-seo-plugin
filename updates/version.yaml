@@ -2,5 +2,6 @@
     - First version of Seo plugin
 1.0.1:
     - 'New: robots.txt support'
+    - 'New: redirects support'
     - create_redirects_table.php
     - create_redirect_statistics_table.php
