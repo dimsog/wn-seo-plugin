@@ -1,7 +1,7 @@
 {
     "name": "dimsog/wn-seo-plugin",
     "type": "winter-plugin",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Seo plugin for WinterCMS",
     "keywords": ["seo", "winter", "winter seo", "wintercms seo plugin"],
     "license": "MIT",

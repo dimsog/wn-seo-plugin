@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace Dimsog\Seo\Components;
 
+use Cms\Classes\CodeBase;
 use Cms\Classes\ComponentBase;
 use Dimsog\Seo\Models\Settings;
 use Winter\Storm\Support\Facades\Block;

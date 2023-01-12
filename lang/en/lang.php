@@ -3,17 +3,32 @@
 return [
     'plugin' => [
         'name' => 'Seo',
-        'description' => 'Seo plugin for WinterCMS'
+        'description' => 'Seo plugin for WinterCMS',
     ],
     'components' => [
         'seo' => [
-            'name' => 'Seo'
-        ]
+            'name' => 'Seo',
+        ],
     ],
     'settings' => [
         'name' => 'Seo',
         'header_and_footer' => 'Head and Footer',
         'header' => 'Head code',
-        'footer' => 'Footer code'
-    ]
+        'footer' => 'Footer code',
+        'robots' => 'Robots.txt',
+    ],
+    'models' => [
+        'general' => [
+            'id' => 'ID',
+            'created_at' => 'Created At',
+            'updated_at' => 'Updated At',
+        ],
+        'redirect' => [
+            'label' => 'Redirect',
+            'label_plural' => 'Redirects',
+            'code' => 'Code',
+            'from' => 'From',
+            'to' => 'To'
+        ],
+    ],
 ];
