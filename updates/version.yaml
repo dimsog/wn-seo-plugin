@@ -5,3 +5,5 @@
     - 'New: redirects support'
     - create_redirects_table.php
     - create_redirect_statistics_table.php
+1.0.2:
+    - 'Fix: RedirectMiddleware does not exists'

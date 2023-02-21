@@ -13,6 +13,11 @@ use System\Classes\PluginBase;
 
 class Plugin extends PluginBase
 {
+    public function register(): void
+    {
+        $this->app->register(ServiceProvider::class);
+    }
+
     public function boot()
     {
         $this->app[Kernel::class]->prependMiddleware(RedirectMiddleware::class);
