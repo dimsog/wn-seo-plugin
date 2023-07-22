@@ -7,3 +7,5 @@
     - create_redirect_statistics_table.php
 1.0.2:
     - 'Fix: RedirectMiddleware does not exists'
+1.0.3:
+    - 'Fix: crash when header or footer blocks is empty'
