@@ -14,8 +14,8 @@ class Seo extends ComponentBase
     public function onRun(): void
     {
         $settings = Settings::instance();
-        Block::append('header', $settings->header);
-        Block::append('footer', $settings->footer);
+        Block::append('header', (string) $settings->header);
+        Block::append('footer', (string) $settings->footer);
     }
 
     public function componentDetails(): array
